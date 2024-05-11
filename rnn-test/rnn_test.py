@@ -35,7 +35,8 @@ model = RecursiveNN(input_size, hidden_size, output_size)
 # Пример входных данных
 input1 = torch.randn(1, input_size)  # Первый входной текст
 input2 = torch.randn(1, input_size)  # Второй входной текст
-
+input3 = torch.randn(1, input_size)
+input4 = torch.randn(1, input_size)
 # Получение предсказания
 output = model(input1, input2)
 print(output)
